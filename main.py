@@ -37,7 +37,6 @@ def transcribe(model: str, audio: AudioData):
 
 
 def process_text(trigger: str, text: str):
-    print(text)
     if text.startswith(trigger):
         os.system(f'oi -r "{text[len(trigger):]}" | festival --tts')
 
