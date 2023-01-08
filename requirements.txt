@@ -1,0 +1,2 @@
+SpeechRecognition==3.9.0
+whisper==1.0
